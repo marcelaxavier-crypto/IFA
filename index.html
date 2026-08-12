@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NOME DO SITE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- MENU DE ACESSIBILIDADE -->
+    <nav class="barra-acessibilidade" aria-label="Controles de Acessibilidade">
+        <button id="btnAumentaTexto" class="botao-controle" title="Aumentar texto">A+</button>
+        <button id="btnDiminuiTexto" class="botao-controle" title="Diminuir texto">A-</button>
+        <button id="btnVoz" class="botao-controle botao-leitura" >🔊</button>
+    </nav>
+
+    <main>
+
+        <!-- 1. INÍCIO -->
+        <section class="banner">
+            <h1>TÍTULO PRINCIPAL</h1>
+            <p style="margin-bottom: 30px;">A acessibilidade é um direito de todos e tem como objetivo garantir que todas as pessoas possam participar da sociedade com autonomia, segurança e igualdade. Para pessoas com baixa visão, pequenas adaptações podem fazer uma grande diferença no dia a dia.
+                Recursos como letras maiores, alto contraste, boa iluminação, leitores de tela, ampliação de imagens e textos acessíveis ajudam a tornar ambientes físicos e digitais mais inclusivos.
+                Este site foi criado para apresentar informações sobre a baixa visão, os desafios enfrentados por essas pessoas e a importância da acessibilidade, mostrando como a sociedade pode contribuir para construir um ambiente mais inclusivo e sem barreiras.
+                Acessibilidade não é privilégio. É direito. Inclusão é garantir que todos tenham a oportunidade de participar.</p>
+            <a href="#contato-ajuda" class="botao-ajuda">Precisa de Ajuda?</a>
+        </section>
+
+        <div class="conteudo">
+
+            <div class="modal-fundo">
+
+                <!-- SEÇÃO DE DESTINO DO BOTÃO DE AJUDA -->
+                <section id="contato-ajuda" style="margin-top: 60px; background: #eef;" class="modal-conteudo">
+                    <h2 style="margin-top: 0;">Acessibilidade e Apoio</h2>
+                    <p>Encontre informações, orientações e recursos que podem facilitar o dia a dia de pessoas com baixa visão. A acessibilidade começa quando todos conseguem encontrar ajuda de forma simples e independente.
+                        4 tópicos do botão “Ajuda”</p>
+                    <ol>
+                        <li><strong>Orientações
+                            Informações sobre baixa visão e acessibilidade.
+                            </strong></li>
+                        <li><strong>Recursos de Acessibilidade
+                            Conheça ferramentas como lupa, leitores de tela e ampliação de textos.</strong></li>
+                        <li><strong>Direitos e Inclusão
+                            Saiba mais sobre os direitos das pessoas com deficiência visual.</strong></li>
+                        <li><strong> Onde Buscar Ajuda
+                            Encontre serviços e instituições que oferecem apoio e orientação.</strong></li>
+                    </ol>
+                    <button class="botao-ajuda botao-fechar">BOTÃO PARA FECHAR</button>
+                </section>
+            </div>
+
+
+            <!-- 2. PROJETO ROBOTICA -->
+            <section id="robotica">
+                <h2>PROJETO ROBOTICA</h2>
+                <div class="caixa-robotica">
+                    <p>EXPLICAÇÃO PROJETO ROBOTICA</p>
+                        <video width="640" height="360" controls>
+                            <source src="video.mp4" type="video/mp4"></video>                  
+                    <ul>
+                        <li><strong>ITEM 1:</strong> EXPLICAÇÃO 1</li>
+                        <li><strong>ITEM 2</strong> EXPLICAÇÃO 2</li>
+                        <li><strong>ITEM 3</strong> EXPLICAÇÃO 3</li>
+                        <li><strong>ITEM 4</strong> EXPLICAÇÃO 4</li>
+                    </ul>
+                </div>
+            </section>
+
+        </div>
+
+        <footer>
+            <p><strong>TEXTO DE RODAPÉ</strong></p>
+            <p>Copyright © 2023 NOME DO SITE. Todos os direitos reservados.</p>
+        </footer>
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
